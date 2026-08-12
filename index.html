@@ -33,18 +33,69 @@
         <li>Mangopudding</li>
     </ul>
 
-    <h2>Ihre Angaben</h2>
+    <h3>Ihre Angaben</h3>
 
-<form>
+    <form>
 
-    <label for="vorname">Vorname:</label>
-    <input type="text" id="vorname" name="vorname">
+        <label for="vorname">Vorname:</label>
+        <input type="text" id="vorname" name="vorname">
 
-    <br><br>
+        <br><br>
 
-    <label for="nachname">Nachname:</label>
-    <input type="text" id="nachname" name="nachname">
+        <label for="nachname">Nachname:</label>
+        <input type="text" id="nachname" name="nachname">
 
+        <br><br>
+
+        <h3>Menüauswahl</h3>
+
+        <input type="radio" id="menueA" name="menue" value="Menü A">
+        <label for="menueA">Menü A - Nudelmenü</label><br>
+
+        <input type="radio" id="menueB" name="menue" value="Menü B">
+        <label for="menueB">Menü B - Entenmenü</label><br>
+
+        <input type="radio" id="menueC" name="menue" value="Menü C">
+        <label for="menueC">Menü C - Vegetarisches Menü</label><br>
+
+        <input type="radio" id="keinMenue" name="menue" value="Keines">
+        <label for="keinMenue">Keines der Menüs</label>
+
+        <br><br>
+
+        <h3>Ernährungsbesonderheiten / Unverträglichkeiten</h3>
+        
+        <input type="checkbox" id="vegetarisch" name="ernaehrung[]" value="Vegetarisch">
+        <label for="vegetarisch">Vegetarisch</label><br>
+
+        <input type="checkbox" id="vegan" name="ernaehrung[]" value="Vegan">
+        <label for="vegan">Vegan</label><br>
+
+        <input type="checkbox" id="glutenfrei" name="ernaehrung[]" value="Glutenfrei">
+        <label for="glutenfrei">Glutenfrei</label><br>
+
+        <input type="checkbox" id="laktosefrei" name="ernaehrung[]" value="Laktosefrei">
+        <label for="laktosefrei">Laktosefrei</label><br>
+
+        <input type="checkbox" id="nussallergie" name="ernaehrung[]" value="Nussallergie">
+        <label for="nussallergie">Nussallergie</label>
+        
+        <br><br>
+        
+        <label for="ernaehrungHinweis">
+        Weitere Angaben zu Unverträglichkeiten oder Ernährungsbesonderheiten:
+        </label>
+        <input type="text" id="ernaehrungHinweis" name="ernaehrungHinweis">
+
+        <br><br>
+
+        <label for="mitteilung">
+            Allgemeine / andere Mitteilungen:
+        </label>
+        <input type="text" id="mitteilung" name="mitteilung">
+
+        <br><br>
+        <button type="submit">Anfrage senden</button>
 </form>
 
 </body>
