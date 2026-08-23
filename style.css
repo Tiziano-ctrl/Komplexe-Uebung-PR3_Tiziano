@@ -1,0 +1,5 @@
+.menues {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; /* 3 gleich breite Spalten */
+    background-color: rgba(255, 255, 224, 0.562);
+}
