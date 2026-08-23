@@ -3,7 +3,17 @@ body {
 }
 
 h1 {
-    color: #8b0000;
+    color: #e33232;
+    font-family: "Palatino Linotype";
+}
+
+h2 {
+    color: #cd6366;
+    font-style: italic;
+}
+
+h3 {
+    color: #820606;
 }
 
 .menues {
@@ -11,5 +21,5 @@ h1 {
     grid-template-columns: 1fr 1fr 1fr; /* 3 gleich breite Spalten */
     background-color: #f5d6a0; 
     font-family: Georgia; /* Schriftart */
-
+    border-radius: 10px;
 }
